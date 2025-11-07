@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -15,7 +15,7 @@ import { Award, Coffee, Flame, Handshake, Heart, Instagram, Leaf, Menu, Star, Us
 export default function Home() {
   return (
     <ThemeProvider
-      defaultButtonVariant="slide-background"
+      defaultButtonVariant="text-stagger"
       defaultTextAnimation="background-highlight"
       borderRadius="soft"
       contentWidth="large"
@@ -199,8 +199,7 @@ export default function Home() {
               company: "Creative Agency",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/3796810/pexels-photo-3796810.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Sarah Johnson customer photo",
-              quote: "Brew & Bean serves the best coffee in town. The atmosphere is cozy and the baristas are incredibly skilled. I come here every morning!"
+              imageAlt: "Sarah Johnson customer photo"
             },
             {
               id: "2",
@@ -209,8 +208,7 @@ export default function Home() {
               company: "Tech Startup",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Michael Chen customer photo",
-              quote: "Perfect place to work on my laptop. Great WiFi, amazing coffee, and the cold brew is exceptional. Highly recommend!"
+              imageAlt: "Michael Chen customer photo"
             },
             {
               id: "3",
@@ -219,8 +217,7 @@ export default function Home() {
               company: "Independent",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/4827509/pexels-photo-4827509.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Emma Williams customer photo",
-              quote: "The signature cappuccino is absolutely divine. Love the latte art and the friendly staff. This is my go-to coffee spot!"
+              imageAlt: "Emma Williams customer photo"
             },
             {
               id: "4",
@@ -229,8 +226,7 @@ export default function Home() {
               company: "Local Business",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/6149793/pexels-photo-6149793.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "David Martinez customer photo",
-              quote: "Excellent quality coffee with sustainable sourcing. The team knows their craft and it shows in every cup. Outstanding service!"
+              imageAlt: "David Martinez customer photo"
             }
           ]}
         />
